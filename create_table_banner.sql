@@ -1,0 +1,7 @@
+CREATE TABLE banner (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    isVisible BOOLEAN NOT NULL DEFAULT 0,
+    description VARCHAR(255) NOT NULL,
+    timer INT NOT NULL,
+    link VARCHAR(255) NOT NULL
+);
